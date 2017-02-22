@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.8/jquery.fullPage.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../CSS/item.css" />
+	<script type="text/javascript" src="../JS/item.js"></script>
+
+	<title>Peter's Portfolio: Distinct Numbers in a N by N multiplication matrix</title>
+</head>
+<body>
+	<!-- <div class="header clearfix">
+		<H1>Daily Quote</H1>
+	</div> -->
+	<div class="mainContainer">
+	<div id="fullpage" class="mainContent">
+		<div class="section fp-auto-height">
+			<div class="slide">
+				<div class="sizer">
+					<img  src="../Images/MultiMatrix/MultiMatrix1.png">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="sizer">
+					<img src="../Images/MultiMatrix/MultiMatrix2.png">
+				</div>
+			</div>
+		</div>	
+
+	</div>
+	<div class="sideContainer">
+		<H1>Distinct Numbers in a N by N multiplication matrix</H1>
+		<H2>Category:</H2>
+		<p>Academia</p>
+		<H2>Languages:</H2>
+		<p>C</p>
+		<H2>Technologies:</H2>
+		<p>C MPI (Message Passing Interface), distributed computing, parallel computing</p>
+		<H2>Description:</H2>
+		<p>This was the final exam/assessment to my parallel computer course. It does not sound like a challenging task, but once the size of N becomes large, you start to run into issues. Depending on your implementation, you will run out of memory very quickly. If you try and store 500,0002 32 bit integers in an array, you will need about 256 GB of memory. As space complexity is the limiting factor for this problem, my algorithm was designed to optimize for a reduced memory footprint. Resulting in an algorithm that allowed for larger matrices to be used. Considering the memory limits of a 32-bit operating system, the largest value of N that the naïve solution could calculate is N = 65,535, my solution allows for a maximum of around N = 4,000,000,000.</p>
+	</div>
+</body>
+</html>

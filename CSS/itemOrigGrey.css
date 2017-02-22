@@ -1,0 +1,127 @@
+.header {
+	/*height: 250px;*/
+	width: 100%;
+	background-color: #EC5454;
+}
+
+/*.headerImage {
+	border-radius: 50%;
+	width: 5%;
+	min-width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+}
+
+.header > * {
+	float:left;
+}*/
+
+.header > H1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2.5em;
+}
+
+.mainContainer {
+	width: 75%;
+	padding-top: 1%;
+	/*float: left;*/
+	margin: 0 auto; 
+	background-color: #FAFAFB;
+}
+
+.mainContent {
+	width: 100%;
+	height: 75%;
+}
+
+.mainContent > img {
+	height:500px;
+	max-height: 75%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent > iframe {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sideContainer {
+	width: 73%;
+	height: 100%;
+	padding-top: 0.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 2%;
+	/*float: left;*/
+	margin: 0 auto; 
+	background-color: #FAFAFB;
+}
+
+.sideContainer > H1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2.5em;
+	color: #333333;
+}
+
+.sideContainer > H2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #333333;
+}
+
+.sideContainer > p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: #666666;
+}
+
+.thumbnailContainer {
+	height: 23%;
+	width: 100%;
+	padding-top: 0.01em;
+	margin-top: 1%;
+	background-color: #FAFAFB;
+	margin: 0 auto;
+}
+
+.thumbnail {
+	height: 150px;
+	width: 150px;
+	background-color: black;
+	float: left;
+}
+
+.thumbnail > img {
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* end clearfix*/
